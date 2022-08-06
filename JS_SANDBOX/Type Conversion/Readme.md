@@ -10,4 +10,5 @@ JavaScript variables can be converted to a new variable and another data type:
 
 | Method | Description |
 |--------|-------------|
-| Number() | converts strings containing numbers to numbers |
+| Number() | converts strings containing numbers to numbers, can convert booleans to numbers and dates|
+| String() | can convert numbers to strings and can be used on any type of numbers, literals, variables or expressions along with being able to convert dates to strings |
