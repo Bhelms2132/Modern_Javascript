@@ -41,3 +41,19 @@ console.log(typeof val);
 // console.log(val.length); 
 console.log(val.toFixed()); // If you want a number with decimal add a number to get that many decimal points ie toFixed(2)
  
+// TYPE COERCION
+
+const val1 = 5;
+const val2 = 6;
+const sum = val1 + val2; // Outputs 11, number
+
+const val3 = '4';
+const val4 = 2;
+const tol = val3 + val4; // Outputs 42 "42 as a string not number", string
+
+//Output
+console.log(sum);
+console.log(typeof sum);
+
+console.log(tol);
+console.log(typeof tol);
