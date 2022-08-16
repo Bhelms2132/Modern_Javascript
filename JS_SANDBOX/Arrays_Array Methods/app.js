@@ -31,5 +31,29 @@ numbers.splice(1,2);
 // Reverse
 numbers.reverse();
 
+// Concatenate array
+val = numbers.concat(numbers2);
+
+// Sorting arrays
+val = fruit.sort();
+val = numbers.sort(); // Will sort by first digit in the number
+
+// Use the 'compare function'
+val = numbers.sort(function(x,y){
+    return x - y;
+});
+
+// Reverse sort
+val = numbers.sort(function(x,y){
+    return y - x;
+});
+
+// Find 
+function over50(num){
+    return num > 50;
+}
+
+val = numbers.find(over50);
+
 console.log(numbers);
 console.log(val);
