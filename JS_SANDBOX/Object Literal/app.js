@@ -20,7 +20,7 @@ val = person;
 
 // Get specific value
 val = person.firstName; // Recommended 
-val = person['lastName']; // Alternative
+// val = person['lastName']; // Alternative
 val = person.age;
 val = person.hobbies[1];
 val = person.address.city;
