@@ -5,14 +5,14 @@
 
 // };
 
-const id = 100;
+// const id = 100;
 
 // EQUAL TO VALUE
-if(id == 100){
-    console.log('Correct');
-} else {
-    console.log('Incorrect');
-}
+// if(id == 100){
+//     console.log('Correct');
+// } else {
+//     console.log('Incorrect');
+// }
 
 // NOT EQUAL TO VALUE
 // if(id != 100){
@@ -35,4 +35,9 @@ if(id == 100){
 //     console.log('Incorrect');
 // }
 
-
+// Test if undefined 
+if(typeof id !== 'undefined'){
+    console.log(`The ID is ${id}`);
+} else {
+    console.log('NO ID');
+}
