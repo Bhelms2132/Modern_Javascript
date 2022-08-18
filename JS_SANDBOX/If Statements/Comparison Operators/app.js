@@ -5,7 +5,7 @@
 
 // };
 
-// const id = 100;
+const id = 100;
 
 // EQUAL TO VALUE
 // if(id == 100){
@@ -36,8 +36,17 @@
 // }
 
 // Test if undefined 
-if(typeof id !== 'undefined'){
-    console.log(`The ID is ${id}`);
-} else {
-    console.log('NO ID');
-}
+// if(typeof id !== 'undefined'){
+//     console.log(`The ID is ${id}`);
+// } else {
+//     console.log('NO ID');
+// }
+
+// GREATER OR LESS THAN
+// if(id <= 100){
+//     console.log('True');
+// } else {
+//     console.log('False');
+// }
+
+// 
