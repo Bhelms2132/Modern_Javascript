@@ -81,3 +81,6 @@ if(age < 16 || age > 65){
 } else {
     console.log(`${name} is registered for the race`);
 }
+
+// TERNARY OPERATOR ? "if true" : "else false"
+console.log(id === 100 ? 'True' : 'False');
