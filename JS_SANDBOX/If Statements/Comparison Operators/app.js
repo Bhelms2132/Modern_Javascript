@@ -63,7 +63,7 @@ let color = 'Green';
 // LOGICAL OPERATORS
 
 const name = 'Steve';
-const age = 2;
+const age = 28;
 
 // && represents logical AND 
 if(age > 0 && age < 12){
@@ -72,4 +72,12 @@ if(age > 0 && age < 12){
     console.log(`${name} is under 21`);
 } else {
     console.log(`${name} is over 21`);
+}
+
+// || represents OR logical expression
+
+if(age < 16 || age > 65){
+    console.log(`${name} can not run in race`);
+} else {
+    console.log(`${name} is registered for the race`);
 }
