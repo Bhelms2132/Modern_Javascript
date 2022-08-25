@@ -17,4 +17,10 @@ const square = function(x) {
 };
 
 // call function expression
-console.log(square(5));
+// console.log(square(5));
+
+// IMMIDIATLEY INVOKABLE FUNCTION EXPRESSIONS - IIFES
+
+(function(name) {
+   console.log('Hello ' + name);
+})('Bob');
