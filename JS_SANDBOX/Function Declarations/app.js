@@ -21,6 +21,25 @@ const square = function(x) {
 
 // IMMIDIATLEY INVOKABLE FUNCTION EXPRESSIONS - IIFES
 
-(function(name) {
-   console.log('Hello ' + name);
-})('Bob');
+// (function(name) {
+//    (console.log('Hello ' + name);
+// })('Bob');
+
+// PROPERTY METHODS
+
+const todo = {
+   add:  function() {
+      console.log('Add todo..');
+   },
+   edit: function(id) {
+      console.log(`Edit todo ${id}`);
+   }
+};
+
+todo.delete = function() {
+   console.log('Delete todo..');
+};
+
+todo.add();
+todo.edit('Next');
+todo.delete();
