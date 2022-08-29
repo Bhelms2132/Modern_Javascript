@@ -67,24 +67,43 @@
 
 
 // FOR EACH LOOP
-// cars.forEach(function(car){
-//      console.log(car);    
+// cars.forEach(function(car, index){
+//      console.log(`${car} : ${index}` );    
 // });
 
 
 
 // MAP - Used to return a different array
-const users =[
-    {id: 1, name:'Bob'},
-    {id: 2, name:'Steve'},
-    {id: 3, name:'Angel'},
-    {id: 4, name:'Samantha'},
-    {id: 5, name:'Larry'},
-];
+// const users =[
+//     {id: 1, name:'Bob'},
+//     {id: 2, name:'Steve'},
+//     {id: 3, name:'Angel'},
+//     {id: 4, name:'Samantha'},
+//     {id: 5, name:'Larry'},
+// ];
 
-const ids = users.map(function(user) {
-    return user.name;
-});
+// const ids = users.map(function(user) {
+//     return user.name;
+// });
 
-console.log(ids);
+// console.log(ids);
+
+
+
+
+// FOR IN LOOP
+
+const user = {
+    firstName: 'Bob',
+    lastName: 'Smith',
+    age: 40,
+    occupation: 'Software Developer'
+};
+
+for(let x in user){
+    console.log(`${x} : ${user[x]}`);
+}
+
+
+
 
