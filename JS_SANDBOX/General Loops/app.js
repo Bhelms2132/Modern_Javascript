@@ -37,9 +37,16 @@
 
 // DO WHILE LOOP - Will always run at least once no matter what
 
-let i = 0;
+// let i = 0;
 
-do {
-    console.log('Number ' + i);
-    i++;
-} while (i < 10);
+// do {
+//     console.log('Number ' + i);
+//     i++;
+// } while (i < 10);
+
+// Looping through an array
+let cars = ['Chevy', 'Ford', 'Honda', 'Toyota', 'BMW', 'GMC'];
+
+for (let i = 0; i < cars.length; i++) {
+   console.log(cars[i]);
+}
