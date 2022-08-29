@@ -27,9 +27,19 @@
 // WHILE LOOP - Use the WHILE LOOP when you're not certain on how many times the loop should run
 
 // Set variable outside of the loop
+// let i = 0;
+
+// while (i < 10) {
+//     console.log('Number ' + i);
+       // increment will be inside the loop statement
+//     i++;
+// }
+
+// DO WHILE LOOP - Will always run at least once no matter what
+
 let i = 0;
 
-while (i < 10) {
+do {
     console.log('Number ' + i);
     i++;
-}
+} while (i < 10);
