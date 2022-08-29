@@ -45,8 +45,14 @@
 // } while (i < 10);
 
 // Looping through an array
-let cars = ['Chevy', 'Ford', 'Honda', 'Toyota', 'BMW', 'GMC'];
+   let cars = ['Chevy', 'Ford', 'Honda', 'Toyota', 'BMW', 'GMC'];
 
-for (let i = 0; i < cars.length; i++) {
-   console.log(cars[i]);
-}
+// for (let i = 0; i < cars.length; i++) {
+//    console.log(cars[i]);
+// }
+// 
+// FOR EACH LOOP
+
+cars.forEach(function(car){
+     console.log(car);    
+});
