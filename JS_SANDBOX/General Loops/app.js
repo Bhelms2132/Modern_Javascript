@@ -24,6 +24,9 @@
 // }
 
 
+
+
+
 // WHILE LOOP - Use the WHILE LOOP when you're not certain on how many times the loop should run
 
 // Set variable outside of the loop
@@ -35,6 +38,10 @@
 //     i++;
 // }
 
+
+
+
+
 // DO WHILE LOOP - Will always run at least once no matter what
 
 // let i = 0;
@@ -44,15 +51,40 @@
 //     i++;
 // } while (i < 10);
 
-// Looping through an array
+
+
+
+
+// LOOPING THROUGH AN ARRAY
    let cars = ['Chevy', 'Ford', 'Honda', 'Toyota', 'BMW', 'GMC'];
 
 // for (let i = 0; i < cars.length; i++) {
 //    console.log(cars[i]);
 // }
-// 
-// FOR EACH LOOP
 
-cars.forEach(function(car){
-     console.log(car);    
+
+
+
+
+// FOR EACH LOOP
+// cars.forEach(function(car){
+//      console.log(car);    
+// });
+
+
+
+// MAP - Used to return a different array
+const users =[
+    {id: 1, name:'Bob'},
+    {id: 2, name:'Steve'},
+    {id: 3, name:'Angel'},
+    {id: 4, name:'Samantha'},
+    {id: 5, name:'Larry'},
+];
+
+const ids = users.map(function(user) {
+    return user.name;
 });
+
+console.log(ids);
+
