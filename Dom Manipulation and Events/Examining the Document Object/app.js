@@ -13,8 +13,19 @@ val = document.URL;
 val = document.characterSet;
 val = document.contentType;
 
+// Log forms from the dom
+val = document.forms;
+val = document.forms[0];
+val = document.forms[0].id;
+val = document.forms[0].method;
+val = document.forms[0].action;
 
+// Log images from the dom
+val = document.images;
 
+// Log scripts from the dom
+val = document.scripts;
+val = document.scripts[2].getAttribute('src');
 
 
 console.log(val);
