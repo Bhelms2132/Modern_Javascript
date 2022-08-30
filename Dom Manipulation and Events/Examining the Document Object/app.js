@@ -28,4 +28,5 @@ val = document.scripts;
 val = document.scripts[2].getAttribute('src');
 
 
+
 console.log(val);
